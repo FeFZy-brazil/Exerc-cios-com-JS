@@ -1,16 +1,16 @@
-function modoClaro() {
-    document.body.style.backgroundColor = "white";
-    document.body.style.color = "black";
-
-    document.getElementById("mensagem").innerText =
-        "Modo claro ativado!";
+function aumentarTexto() {  
+    document.getElementById("mensagem")
+    .style.fontSize = "30px";
 
 }
 
-function modoEscuro() {
-    document.body.style.backgroundColor = "black";
-    document.body.style.color = "white";
-
-        document.getElementById("mensagem").innerText =
-        "Modo escuro ativado!";
+function mudarFonte() {
+    document.getElementById("mensagem")
+    .style.fontFamily = "Courier New";
 }
+
+function negritoTexto() {
+    document.getElementById("mensagem")
+    .style.fontWeight = "bold";
+}
+
